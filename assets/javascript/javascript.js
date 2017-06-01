@@ -110,7 +110,8 @@ $(document).ready(function() {
         $(document).on("click", ".breed", function() {
             $("#topics-view").empty();
         });
-        $(document).on("click", ".breed", displayBreedInfo);
+        $(document).on("click", ".breed", displayBreedInfo); {
         // Calling the renderButtons function to display the intial buttons
         renderButtons();
+		};
 });
