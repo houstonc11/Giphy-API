@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	var topics = ["husky", "pug", "german shepard", "beagle", "bulldog", "terrier"];
         // displayBreedInfo function re-renders the HTML to display the appropriate content
         function displayBreedInfo() {
@@ -110,8 +111,7 @@ $(document).ready(function() {
         $(document).on("click", ".breed", function() {
             $("#topics-view").empty();
         });
-        $(document).on("click", ".breed", displayBreedInfo); {
+        $(document).on("click", ".breed", displayBreedInfo);
         // Calling the renderButtons function to display the intial buttons
         renderButtons();
-		};
 });
