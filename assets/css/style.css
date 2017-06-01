@@ -1,0 +1,37 @@
+button,
+div {
+    margin: 10px;
+}
+
+form {
+    margin: 50px 10px 30px 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+.displayBreed {
+    display: inline-block;
+}
+
+.container {
+    background: lightgray;
+    border: 1px solid #428bca;
+    border-radius: 10px;
+}
+
+.displayArea {
+    border: 5px solid #428bca;
+    border-radius: 10px;
+}
+
+.dog-gif {
+    border: 1px solid #428bca;
+    border-radius: 10px;
+}
+
+#topics-input {
+    border: 1px solid #428bca;
+    border-radius: 4px;
+}
