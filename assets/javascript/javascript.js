@@ -8,7 +8,7 @@ $(document).ready(function() {
             var mainDiv = $("<div>");
             mainDiv.attr("class", "displayArea panel panel-inverse-primary col-md-8")
 
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=dc6zaTOxFJmzC";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=dc6zaTOxFJmzC";
             // Creating an AJAX call for the specific dog breed button being clicked
             $.ajax({
                 url: queryURL,
